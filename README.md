@@ -12,7 +12,6 @@
     <a href="https://carmenyo.github.io/FrontendMentor-Product-preview-card-component/">
       Solution
     </a>
-   <span> | </span>
   </h3>
 </div>
 <br>
