@@ -1,6 +1,6 @@
 # Frontend Mentor - Product Preview Card Component
 
-This is a solution to the [Product Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the Product Preview Card Component challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -21,8 +21,8 @@ It is a product listing for an online store with details about the product, an i
 
 ### Screenshot
 
-![Desktop version](./src/images/image-product-desktop.jpg)
-![Mobile version](./src/images/image-product-mobile.jpg)
+![Desktop version](./src/images/soluction%20Desktop.png)
+![Mobile version](./src/images/solution%20Mobile.png)
 
 
 ## My process
