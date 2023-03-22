@@ -1,0 +1,128 @@
+@import "../core/variables";
+@import "../core/reset";
+@import "../core/fonts";
+
+.main {
+  padding: 1.7rem 1rem 0rem;
+  background-color: $Cream;
+  @media all and (min-width: 768px) {
+    max-width: 40rem;
+    max-height: 30rem;
+    margin: auto;
+  }
+
+
+  &__info {
+    background-color: $White;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+  }
+  &__image {
+    width: 100%;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    @media all and (min-width: 768px) {
+      display: flex;
+      margin-top: 9rem;
+    }
+      
+
+    &--desktop {
+      display: none;
+
+      @media (min-width: 768px) {
+        display: block;
+        max-width:19rem;
+      }
+    }
+    &--mobile {
+      width: 100%;
+      margin-bottom: -2px;
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  &__category {
+    padding: 1.5rem 1.5rem 0.8rem;
+    font-family: $fontMontserrat;
+    font-size: small;
+    letter-spacing: 0.3em;
+    color: $Dark-grayish-blue;
+    @media (min-width: 768px) {
+      padding: 2.2rem 2.5rem 0.8rem;;
+    }
+  }
+
+  &__tittle {
+    margin-left: 1.6rem;
+    font-family: $fontFraunces;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.0875rem;
+    @media (min-width: 768px) {
+      margin-top: .7rem;
+      padding: 0 .7rem 0;
+    }
+  }
+
+  &__paragraph {
+    margin: 1rem;
+    padding: 0.2rem 0.4rem;
+    font-family: $fontMontserrat;
+    font-size: small;
+    font-weight: lighter;
+    color: $Dark-grayish-blue;
+    line-height: 1.3rem;
+    margin-bottom: 3rem;
+    @media (min-width: 768px) {
+      padding: 0.3rem 1.3rem;
+      font-size: 0.9rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  &__prices {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    @media (min-width: 768px) {
+      margin-top: -1.5rem;
+      margin-bottom: 1.7rem;
+      margin-left: 2rem;;
+    }
+  }
+  &__price {
+    font-family: $fontFraunces;
+    font-size: 2rem;
+    color: $Dark-green;
+    margin-right: 2rem;
+  }
+
+  &__old-price {
+    font-family: $fontMontserrat;
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    color: $Dark-grayish-blue;
+  }
+  &__button {
+    margin: 0.05rem 1.5rem;
+    background-color: $Dark-green;
+    font-family: $fontMontserrat;
+    color: $White;
+    border: none;
+    width: 87%;
+    height: 3.2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    @media (min-width: 768px) {
+      width: 80%;
+    }
+
+    &--add {
+      text-align: center;
+      margin-left: 1rem;
+    }
+  }
+}

@@ -1,44 +1,45 @@
-<img src="https://github.com/Carmenyo/FrontendMentor-Product-preview-card-component/blob/main/images/FrontendMentor-Product-preview-card-component.jpg"></img>
+# Frontend Mentor - Product Preview Card Component
 
-<h1 align="center">Product preview card component
-</h1>
+This is a solution to the [Product Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-<div align="center">
-  <h3>
-    <a href="https://github.com/Carmenyo/FrontendMentor-Product-preview-card-component" color="white">
-      Live
-    </a>
-    <span> | </span>
-    <a href="https://carmenyo.github.io/FrontendMentor-Product-preview-card-component/">
-      Solution
-    </a>
-  </h3>
-</div>
-<br>
-<br>
-<br>
+## Table of contents
 
-## About The Project
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
 
-<p>This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.
-The challenge is to build out this product preview card component and get it looking as close to the design as possible.
+- [My process](#my-process)
+	- [Built with](#built-with)
+	- [What I learned](#what-i-learned)
 
-<br><br>Users should be able to: <br>
-1. View the optimal layout depending on their device's screen size.
-2. See hover and focus states for interactive elements.
-<br>
+- [Author](#author)
 
-## Built with
 
-- HTML5 
-- CSS3
-- Mobile-first workflow
 
-## What I learned
+## Overview
 
-A very easy project to keep updated with the Frontend Mentor projects and remember the basics concepts !
+It is a product listing for an online store with details about the product, an image, and price, as well as a button to add the product to the shopping cart.
 
-## Acknowledgments
+### Screenshot
 
-Many thanks to anyone who has contributed providing feedback on my solution. 
+![Desktop version](./src/images/image-product-desktop.jpg)
+![Mobile version](./src/images/image-product-mobile.jpg)
 
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- SASS
+- REACT
+- BEM
+
+
+### What I learned
+
+"I had already completed this challenge in HTML and CSS, but now I have decided to take it a step further and write my code in REACT, using SASS and utilizing the BEM terminology. I have also attempted to achieve Pixel Perfect."
+
+
+## Author
+
+- Frontend Mentor - [@Carmenyo](https://www.frontendmentor.io/profile/Carmenyo)
