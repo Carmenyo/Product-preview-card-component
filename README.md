@@ -2,7 +2,7 @@
 
 A simple perfume product card project built using HTML5, CSS3, and CSS Grid. This project focuses on creating a responsive product card showcasing a perfume item. By utilizing CSS Grid, you've achieved a layout that adapts seamlessly across various screen sizes.
 
-![Perfume Product Card Project Preview](./public/React-Starter-Kit.png)
+![Perfume Product Card Project Preview](./public/Neutral%20Minimal%20Shadow%20Photographer%20Frame%20Mockup%20Pinterest%20Pin.png)
 
 ## Features
 
